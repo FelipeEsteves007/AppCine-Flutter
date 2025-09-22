@@ -33,6 +33,9 @@ migrate_working_dir/
 /build/
 /coverage/
 
+# Chaves/API
+lib/app/api_key.dart
+
 # Symbolication related
 app.*.symbols
 
@@ -45,4 +48,3 @@ app.*.map.json
 /android/app/release
 
 
-C:\Projetos\AppCine\cinetopia\lib\app\api_key.dart
