@@ -1,5 +1,5 @@
 import 'package:cinetopia/ui/components/buttons.dart';
-import 'package:cinetopia/ui/screens/search_movies.dart';
+import 'package:cinetopia/ui/screens/dasboard.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -42,7 +42,7 @@ class HomePage extends StatelessWidget {
                   icon: Icons.arrow_forward, 
                   onTap: () => Navigator.push(
                     context, MaterialPageRoute(
-                      builder: (context) => SearchMovies()
+                      builder: (context) => Dasboard()
                    )
                  )
                 )

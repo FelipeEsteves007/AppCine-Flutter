@@ -27,7 +27,8 @@ class PrimaryButton extends StatelessWidget {
               text , style: TextStyle(
                 color: Color(0xFF1d0E44),
                 fontWeight: FontWeight.w700,
-              ),),
+              ),
+            ),
             icon != null ? Icon(icon, color: Color(0xFF1d0E44)) : Container(),
           ],
         ),
