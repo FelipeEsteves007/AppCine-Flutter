@@ -8,3 +8,8 @@
 *.kt linguist-detectable=false
 *.m linguist-detectable=false
 *.swift linguist-detectable=false
+
+# Ignora CMake
+CMakeLists.txt linguist-detectable=false
+*.cmake linguist-detectable=false
+/cmake/* linguist-detectable=false
